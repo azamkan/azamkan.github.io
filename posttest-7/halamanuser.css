@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+.user-table th, .user-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #007BFF;
+    background-color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}

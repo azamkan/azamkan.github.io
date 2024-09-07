@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img{
+    width: 50px;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav-items {
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    padding: 0 16px;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items li{
+    text-decoration: none;
+    display: flex;
+}
+
+
+.me {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.me-title {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-title hr {
+    height: 4px;
+    width: 100px;
+    margin-top: 4px;
+    border: none;
+}
+
+.me-container {
+    
+    flex-basis: 60%;
+    display: contents;
+    
+}
+
+.me-card {
+    margin: 15px;
+    background: blanchedalmond;
+    border-radius: 16px;
+    display: flex;
+    overflow: hidden;
+}
+
+.me-card img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.me-preview {
+    height: 40%;
+    background-color: blanchedalmond;
+}
+
+.me-preview h3 {
+    padding-top: 16px;
+    padding-inline: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.me-preview p {
+    margin-top: 8px;
+    padding-inline: 32px;
+    text-align: justify;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
